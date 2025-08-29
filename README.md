@@ -1,6 +1,7 @@
 # 水稻病虫害识别工具 (Rice Disease Detection Tool)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 
 ## 项目简介 (Project Overview)
 
@@ -171,6 +172,6 @@ rice-disease-detection/
 ```
 
 ## 许可证 (License)
-本项目采用 [MIT 许可证](LICENSE) 开源，详情参见 LICENSE 文件。
+本项目采用 [AGPLv3 License](LICENSE)开源，详情参见 LICENSE 文件。
 
-This project is open-sourced under the [MIT License](LICENSE). See the LICENSE file for details.
+This project is open-sourced under the [AGPLv3 License](LICENSE). See the LICENSE file for details.

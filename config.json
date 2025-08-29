@@ -9,7 +9,7 @@
         "result_dir": "result_plant_pest",
         "cache_dir": "${result_dir}/.cache",
         "log_dir": "${result_dir}/.log",
-        "data_dir": "/media/quyonghua/QuYH/data/病害/水稻叶病图像样本/small_test"
+        "data_dir": "small_test"
     },
     "image": {
         "resized_image_size": [256, 256],

@@ -27,7 +27,7 @@ This project is a tool focused on rice disease and pest detection, capable of ac
 
 ## 环境要求 (Environment Requirements)
 
-- Python 3.8 及以上版本 (Python 3.8 or higher)
+- Python 3.12 及以上版本 (Python 3.12 or higher)
 - 依赖库：见 `requirements.txt`
 
 ## 安装步骤 (Installation Steps)
@@ -64,10 +64,10 @@ The project is configured through the `config.json` file, with key configuration
 ### 2. 路径配置 (Path Settings)
 ```json
 "paths": {
-    "result_dir": "/home/quyonghua/data/result_plant_pest/",  // 结果输出目录 (Result output directory)
+    "result_dir": "result_plant_pest/",  // 结果输出目录 (Result output directory)
     "cache_dir": "${result_dir}/.cache",  // 缓存目录（自动关联result_dir）(Cache directory, automatically associated with result_dir)
     "log_dir": "${result_dir}/.log",      // 日志目录 (Log directory)
-    "data_dir": "/media/quyonghua/QuYH/data/病害/水稻叶病图像样本/small_test"  // 图像数据目录 (Image data directory)
+    "data_dir": "small_test"  // 图像数据目录 (Image data directory)
 }
 ```
 > 数据目录需按病害类型创建子文件夹（如 `稻瘟病/`、`细菌性枯萎病/`），并放入对应图像

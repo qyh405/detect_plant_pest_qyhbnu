@@ -88,8 +88,8 @@ The project is configured through the `config.json` file, with key configuration
 "training": {
     "target_diseases": ["稻瘟病", "细菌性枯萎病", "水稻东格鲁病毒病", "褐斑病"],  // 目标病害类型 (Target disease types)
     "retrain_threshold": 80,           // 二次训练精度阈值（%）(Retraining accuracy threshold (%))
-    "sample_size": 200,                // 每类病害训练样本量 (Number of training samples per disease)
-    "test_size": 0.05,                 // 验证集比例 (Validation set ratio)
+    "sample_size": 15,                // 每类病害训练样本量 (Number of training samples per disease)
+    "test_size": 0.2,                 // 验证集比例 (Validation set ratio)
     "random_state": 42,                // 随机种子（确保结果可复现）(Random seed for reproducibility)
     "force_retrain": true              // 是否强制重训（忽略缓存）(Force retraining, ignoring cache)
 }

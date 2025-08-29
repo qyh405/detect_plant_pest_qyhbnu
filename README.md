@@ -1,11 +1,11 @@
-# 水稻病虫害识别工具 (Rice Disease Detection Tool)
+# 水稻病害识别工具 (Rice Disease Detection Tool)
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 
 ## 项目简介 (Project Overview)
 
-本项目是一款专注于水稻病虫害识别的工具，能够精准识别多种水稻病害（如稻瘟病、细菌性枯萎病等），并输出符合YOLO格式的病变位置坐标。通过API调用视觉模型进行训练与预测，结合二次训练机制持续优化识别精度，适用于农业病虫害监测、学术研究及农业生产辅助决策场景。
+本项目是一款专注于水稻病害识别的工具，能够精准识别多种水稻病害（如稻瘟病、细菌性枯萎病等），并输出符合YOLO格式的病变位置坐标。通过API调用视觉模型进行训练与预测，结合二次训练机制持续优化识别精度，适用于农业病虫害监测、学术研究及农业生产辅助决策场景。
 
 This project is a tool focused on rice disease and pest detection, capable of accurately identifying various rice diseases (such as rice blast, bacterial blight, etc.) and outputting lesion coordinates in YOLO format. It uses API calls to visual models for training and prediction, combined with a retraining mechanism to continuously optimize recognition accuracy, suitable for agricultural pest monitoring, academic research, and agricultural production decision-making assistance.
 
